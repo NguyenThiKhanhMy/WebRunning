@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",  
+    "baseUrl": "./src",    
+    "resolveJsonModule": true,    
+    "paths": {      
+      "assets/*": ["assets/*"],
+      "common/*": ["common/*"],
+      "components/*": ["components/*"],     
+      "containers/*": ["containers/*"],            
+      "routes/*": ["routes/*"],      
+      "services/*": ["services/*"],
+      "store/*": ["store/*"], 
+    },
+  },
+  "include": [
+    "src", 
+    "index.d.ts"
+  ]
+}
